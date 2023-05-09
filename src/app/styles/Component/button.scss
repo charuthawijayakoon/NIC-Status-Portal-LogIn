@@ -1,0 +1,21 @@
+/* Universal CSS ============================================================================================================================= */
+
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+/* Button ==================================================================================================================================== */
+
+.btn{
+	background-color: #50A97E; 
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+	border-radius: 8px; 
+	width: 217px;
+	color: white;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 22px;
+}

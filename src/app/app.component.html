@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+
+  <body>
+
+    
+    <div class="container box" mt-10>
+
+      <div class="row">
+
+          <div class="col-6 company_details flex-row">
+              <img src="assets/IMG/drplogo.png " class="yellow_document_icon" />
+              <div class="site_heading">
+                  <h5 class="text-left english">Department for Registration of Person</h5>
+                  <h5 class="text-left sinhala">පුද්ගලයින් ලියාපදිංචි කිරීමේ දෙපාර්තමේන්තුව</h5>
+              </div>
+              <img src="assets/IMG/lkemblem.png " class="yellow_document_icon" />
+          </div>
+
+          <div class="col-6 profile_details">
+              <h4 class="text-right profile_name">Charutha Wijayakoon</h4>
+              <p-avatar image="assets/IMG/profile.jpg " styleClass="mr-2" size="large" shape="circle"></p-avatar>
+          </div>
+
+      </div>
+
+      <div class="row">
+          <div class="col-12">
+              <h4 class="text-right main-heading">Third party User Creation</h4>
+          </div>
+      </div>
+
+      <div class="row">
+
+          <div class="col-6">
+
+              <div class="textdiv_1">
+                  <div class="textdiv_2">
+                      <div class="textdiv_3 textdiv_3one">
+                          <label>User Name</label>
+                          <input class="application" type="text" placeholder="Enter the User Name" />
+                      </div>
+                      <hr>
+                      <div class="textdiv_3 textdiv_3two">
+                          <label>Institute / Organization </label>
+                          <input class="application" type="text" placeholder="Enter the Institute / Organization" />
+                      </div>
+                      <hr>
+                      <div class="textdiv_3 textdiv_3three">
+                          <label>Login Validity Period To <i class="fa fa-calendar label_icon" aria-hidden="true"></i></label>
+                          <input class="application" type="text" placeholder="Enter the Login Validity Period To Date" />                          
+                      </div>
+                  </div>
+              </div>
+
+          </div>
+
+          <div class="col-6">
+
+              <div class="textdiv_1">
+                  <div class="textdiv_2">
+                      <div class="textdiv_3 textdiv_3one">
+                          <label>Password <i class="fa fa-eye-slash label_icon" aria-hidden="true"></i></label>
+                          <input class="application" type="password" placeholder="Enter the Password" />                           
+                      </div>
+                      <hr>
+                      <div class="textdiv_3 textdiv_3two">
+                          <label>Login Validity Period From <i class="fa fa-calendar label_icon" aria-hidden="true"></i></label>
+                          <input class="application" type="text" placeholder="Enter the Login Validity Period From Date" />                          
+                      </div>
+                      <hr>
+                      <div class="textdiv_3 textdiv_3three toggler">
+                          <div class="form-check form-switch">
+                              <p-inputSwitch formControlName="checked"></p-inputSwitch>
+                              <label class="form-check-label" for="flexSwitchCheckDefault">Block User</label>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+          </div>
+
+      </div>
+
+      <div class="row">
+        <p-button type="button" class="btn float-end">Create User</p-button>
+      </div>
+
+      <div class="row">
+          <div class="col-12">
+              <footer class="text-center footer">Copyright © 2022 Department for Registrations of Person</footer>
+          </div>
+      </div>
+
+  </div>
+    
+  </body>
+
+</html>
+
+
+
+
+<router-outlet></router-outlet>
