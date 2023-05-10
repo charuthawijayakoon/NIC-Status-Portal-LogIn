@@ -8,14 +8,29 @@ html { font-family: 'Inter', sans-serif; }
 
 /* Button ==================================================================================================================================== */
 
-.btn{
-	background-color: #50A97E; 
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
-	border-radius: 8px; 
-	width: 217px;
-	color: white;
-	font-style: normal;
-	font-weight: 700;
-	font-size: 18px;
-	line-height: 22px;
+.btn-container{
+    display: flex !important;
+    flex-direction: row-reverse;
+}
+
+.button-creation{
+	background: $lava_color !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+    border-radius: 8px !important;
+    color: $background_color !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    border-color: $lava_color !important;
+    font-size: $s_font !important;
+    line-height: 22px !important;
+    cursor: pointer !important;
+    padding: 10px 50px !important;
+    display: flex !important;
+    align-content: center;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+}
+
+.textfield-section--containerleft{
+	padding-left: 20px !important;
 }

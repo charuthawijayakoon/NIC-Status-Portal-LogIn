@@ -1,12 +1,12 @@
 /* Form ====================================================================================================================================== */
 
-.textdiv_1 {
+.textfield--main-cantainer {
 	background-color: white;
 	border-radius: 8px;
 	box-shadow: 0px 5px 19px rgba(0, 0, 0, 0.06);
 }
 
-.textdiv_2, .textdiv_3 {
+.textfield--sub-cantainer, .textfield--content-cantainer {
 	background-color: white;
 	border-radius: 8px;
 }
@@ -16,15 +16,15 @@ label .label_icon {
 	padding-right: 60px;
 }
 
-.textdiv_3one {
+.content-cantainer--fieldone {
     padding: 10px 10px 0 10px;
 }
 
-.textdiv_3two {
+.content-cantainer--fieldtwo {
     padding: 0 10px 0px 10px;
 }
 
-.textdiv_3three {
+.content-cantainer--fieldthree {
     padding: 0 10px 10px 10px;
 }
 
@@ -45,4 +45,9 @@ textarea:focus, input:focus{
 
 hr {
 	border: 0.5px solid #D9D9D9;
+}
+
+.toggler--switch, .switch-toggler-off{
+	display: flex;
+    align-items: center;
 }
