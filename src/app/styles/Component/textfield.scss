@@ -51,3 +51,41 @@ hr {
 	display: flex;
     align-items: center;
 }
+
+.switch-toggler-off{
+	padding-right: 10px !important;
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.form-check-label {
+    display: flex;
+    align-items: center;
+}
+
+.verticle-row--fieldrow{
+	display: flex;
+}
+
+.vl{
+    height: 50px;
+    margin-right: 15px;
+    border: 1px solid $hr_color;
+}
+
+hr{
+	border: 1px solid $hr_color;
+}
+
+.right--text-field{
+	display: flex;
+}
+
+.textfield--switcch-componenet {
+    display: flex;
+}
+
+.txtfld-row--section{
+	display: flex;
+}

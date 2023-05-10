@@ -1,13 +1,16 @@
 /* Footer ==================================================================================================================================== */
 
 .footer {
-    position: absolute;
-    width: 383px;
-    height: 17px;
-    left: 460px;
-    top: 512px;  
     font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
+    font-weight: $s_weight;
+    font-size: $footer_font;
     line-height: 17px;
+}
+
+.footer-section{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: flex-start;
 }
