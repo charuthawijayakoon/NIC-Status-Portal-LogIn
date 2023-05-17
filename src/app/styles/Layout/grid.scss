@@ -36,3 +36,33 @@
     left: 0rem;
     margin-top: -0.625rem;
 }
+
+
+
+// @media screen and (min-width: 600px) {
+//     .application {
+//       font-size: 16px;
+//       width: 300px;
+//     }
+//   }
+  
+//   @media screen and (max-width: 600px) {
+//     .application {
+//       font-size: 16px;
+//       width: 100px;
+//     }
+//   }
+
+@media screen and (max-width: 991px){
+    .application {
+        font-size: 16px;
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .application {
+        font-size: 16px;
+        width: 200px;
+    }
+}

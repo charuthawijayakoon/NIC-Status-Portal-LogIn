@@ -8,6 +8,7 @@ import { ButtonModule } from 'primeng/button';
 import { AvatarModule } from 'primeng/avatar';
 import { ImageModule } from 'primeng/image';
 import { InputSwitchModule } from 'primeng/inputswitch';
+import { TooltipModule } from 'primeng/tooltip';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { InputSwitchModule } from 'primeng/inputswitch';
     ButtonModule,
     AvatarModule,
     ImageModule,
-    InputSwitchModule
+    InputSwitchModule,
+    TooltipModule
   ],
   providers: [],
   bootstrap: [AppComponent]
