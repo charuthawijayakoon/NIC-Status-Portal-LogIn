@@ -66,6 +66,7 @@ hr {
 
 .verticle-row--fieldrow{
 	display: flex;
+	justify-content: space-between;
 }
 
 .vl{
@@ -80,6 +81,7 @@ hr{
 
 .right--text-field{
 	display: flex;
+	width: 500px;
 }
 
 .textfield--switcch-componenet {
@@ -87,5 +89,19 @@ hr{
 }
 
 .txtfld-row--section{
+	display: flex;
+}
+
+.textfield--row {
+    padding: 12px;
+	width: 500px;
+}
+
+.text-icon--component {
+    padding: 12px;
+}
+
+.login--validity {
+    padding: 0;
 	display: flex;
 }

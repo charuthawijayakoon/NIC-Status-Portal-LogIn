@@ -5,6 +5,8 @@
     font-weight: $s_weight;
     font-size: $footer_font;
     line-height: 17px;
+    display: flex;
+    justify-content: center;
 }
 
 .footer-section{
