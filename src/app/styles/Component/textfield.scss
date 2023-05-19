@@ -35,7 +35,7 @@ label .label_icon {
 
 .application {
 	border: hidden; 
-	width: 300px; 
+	// width: 300px; 
 	display: block;
 }
 
@@ -53,7 +53,7 @@ hr {
 }
 
 .switch-toggler-off{
-	padding-right: 10px !important;
+    padding: 10px !important;
     display: flex;
     align-items: center;
     margin-top: 12px;
@@ -66,7 +66,7 @@ hr {
 
 .verticle-row--fieldrow{
 	display: flex;
-	justify-content: space-between;
+	// justify-content: space-between;
 }
 
 .vl{
@@ -90,11 +90,13 @@ hr{
 
 .txtfld-row--section{
 	display: flex;
+	// border-left: 2px solid black;
 }
 
 .textfield--row {
     padding: 12px;
 	width: 500px;
+	border-right: 2px solid $hr_color;
 }
 
 .text-icon--component {
@@ -104,4 +106,12 @@ hr{
 .login--validity {
     padding: 0;
 	display: flex;
+}
+
+.validity-from--icon{
+	padding-left: 166px;
+}
+
+.validity-to--icon {
+    padding-left: 186px;
 }

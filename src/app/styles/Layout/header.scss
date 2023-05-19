@@ -13,6 +13,8 @@
 .site_heading {
 	display: flex;
     flex-direction: column;
+	padding: 0 10px;
+	align-items: center;
 }
 
 .site_heading .english {
@@ -28,7 +30,7 @@
 .site_heading .sinhala {
 	font-style: normal;
 	font-weight: 5;
-	font-size: $m_font;
+	font-size: 19px;
 	line-height: 25px;
 	letter-spacing: 0.05em;
 	color: $tiber_color;
@@ -51,6 +53,7 @@
 	font-size: 17px;
 	line-height: 105.02%;
 	color: $text_color;
+	padding-right: 10px;
 }
 
 .main-heading {

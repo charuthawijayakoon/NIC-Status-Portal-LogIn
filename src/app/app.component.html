@@ -35,17 +35,17 @@
 
                     <div class="textfield--main-cantainer">
                         <div class="textfield--sub-cantainer">
+
                             <div class="col-12 verticle-row--fieldrow textfield--content-cantainer content-cantainer--fieldone">
-                                <div class="col-12 textfield--row">
+                                <div class="col-6 textfield--row">
                                     <label>User Name</label>
                                     <input class="application" type="text" placeholder="Enter the User Name" />   
                                 </div>
-                                <div class="col-12 right--text-field">
-                                    <div class="vl"></div>
+                                <div class="col-6 right--text-field">
                                     <div class="col-12 textfield--rowtwo txtfld-row--section">
                                         <div class="col-10 text-icon--component">
-                                            <label>Password <i class="fa fa-eye-slash label_icon" aria-hidden="true"></i></label>
-                                            <input class="application" type="password" placeholder="Enter the Password" />
+                                            <label class="col-6">Password <i class="fa fa-eye-slash label_icon" aria-hidden="true"></i></label>
+                                            <input class="col-6 application" type="password" placeholder="Enter the Password" />
                                         </div>
                                         <div class="col-2 eye--icon--component">
                                             <div class="col-6 textfield--icon">
@@ -58,26 +58,29 @@
                                     </div>
                                 </div>
                             </div>
+
                             <hr>
+
                             <div class="col-12 verticle-row--fieldrow textfield--content-cantainer content-cantainer--fieldtwo">
                                 <div class="col-6 textfield--row">
                                     <label>Institute / Organization </label>
                                     <input class="application" type="text" placeholder="Enter the Institute / Organization" />
                                 </div>
                                 <div class="col-6 right--text-field">
-                                    <div class="vl"></div>
                                     <div class="col-12 textfield--rowtwo txtfld-row--section">
                                         <div class="col-11 text-icon--component">
                                             <label>Login Validity Period From <i class="fa fa-calendar label_icon" aria-hidden="true"></i></label>
                                             <input class="application" type="text" placeholder="Enter the Login Validity Period From Date" /> 
                                         </div>
-                                        <div class="col-1 textfield--icon">
-                                            <span class="pi pi-calendar import-icon--material"  style="font-size: 1.2rem"></span>
+                                        <div class="col-1 textfield--icon validity-from--icon">
+                                            <span class="pi pi-calendar import-icon--material asdf"  style="font-size: 1.2rem"></span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+
                             <hr>
+
                             <div class="col-12 verticle-row--fieldrow textfield--content-cantainer content-cantainer--fieldthree">
                                 <div class="col-6 textfield--row">
                                     <div class="col-12 textfield--rowtwo txtfld-row--section">
@@ -86,20 +89,40 @@
                                                 <label>Login Validity Period To <i class="fa fa-calendar label_icon" aria-hidden="true"></i></label>
                                                 <input class="application" type="text" placeholder="Enter the Login Validity Period To Date" />
                                             </div>
-                                            <div class="col-1 textfield--icon">
+                                            <div class="col-1 textfield--icon validity-to--icon">
                                                 <span class="pi pi-calendar import-icon--material"  style="font-size: 1.2rem"></span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                                <!-- <div class="col-6 textfield--row">
+                                    <div class="col-11 text-icon--component">
+                                        <label>Login Validity Period To <i class="fa fa-calendar label_icon" aria-hidden="true"></i></label>
+                                        <input class="application" type="text" placeholder="Enter the Login Validity Period To Date" /> 
+                                    </div>
+                                    <div class="col-1 textfield--icon">
+                                        <span class="pi pi-calendar import-icon--material asdf"  style="font-size: 1.2rem"></span>
+                                    </div>
+                                </div> -->
+                                <!-- <div class="col-6 right--text-field">
+                                    <div class="col-12 textfield--rowtwo txtfld-row--section">
+                                        <div class="col-11 text-icon--component">
+                                            <label>Login Validity Period From <i class="fa fa-calendar label_icon" aria-hidden="true"></i></label>
+                                            <input class="application" type="text" placeholder="Enter the Login Validity Period From Date" /> 
+                                        </div>
+                                        <div class="col-1 textfield--icon">
+                                            <span class="pi pi-calendar import-icon--material asdf"  style="font-size: 1.2rem"></span>
+                                        </div>
+                                    </div>
+                                </div> -->
                                 <div class="col-6 right--text-field">
-                                    <div class="vl"></div>
-                                    <div class="textfield--rowtwo textfield--switcch-componenet">
+                                    <div class="textfield--rowtwo textfield--switcch-componenet col-12">
                                         <p-inputSwitch class="switch-toggler-off" formControlName="checked"></p-inputSwitch>
                                         <label class="form-check-label" for="flexSwitchCheckDefault">Block User</label>
                                     </div>
                                 </div>
                             </div>
+                            
                         </div>
                     </div>
 
