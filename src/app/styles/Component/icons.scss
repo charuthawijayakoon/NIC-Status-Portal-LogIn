@@ -6,7 +6,7 @@
 .eye--icon--component{
     display: flex;
     align-items: center;
-    padding-left: 196px;
+    padding-left: 190px;
 }
 
 .textfield--icon {
@@ -15,6 +15,40 @@
     
 }
 
-.text-icon--component {
-    padding: 12px 40px 12px 12px;
+.aa--conponent {
+    display: flex;
 }
+
+// .text-icon--component {
+//     padding: 12px 40px 12px 12px !important;
+// }
+
+
+
+.switch-default {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 24px 8px 20px;
+  }
+  .master-off {
+    height: 38px;
+    width: 58px;
+    background-color: #ffffff;
+  }
+  .track--wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 12px;
+  }
+  .thumb--wrapper {
+    border-radius: 19px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 9px;
+  }

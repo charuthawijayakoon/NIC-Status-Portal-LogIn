@@ -17,16 +17,16 @@ label .label_icon {
 }
 
 .content-cantainer--fieldone {
-    padding: 10px 10px 0 10px;
+	padding: 10px 0 0 0;
 }
 
-.content-cantainer--fieldtwo {
-    padding: 0 10px 0px 10px;
-}
+// .content-cantainer--fieldtwo {
+//     padding: 0 10px 0px 10px;
+// }
 
-.content-cantainer--fieldthree {
-    padding: 0 10px 10px 10px;
-}
+// .content-cantainer--fieldthree {
+//     padding: 0 10px 10px 10px;
+// }
 
 .toggler {
 	padding: 10px 10px 23px 10px;
@@ -56,7 +56,6 @@ hr {
     padding: 10px !important;
     display: flex;
     align-items: center;
-    margin-top: 12px;
 }
 
 .form-check-label {
@@ -94,28 +93,32 @@ hr{
 }
 
 .textfield--row {
-    padding: 12px;
+	padding: 12px 24px;
 	width: 500px;
 	border-right: 2px solid $hr_color;
 }
 
 .text-icon--component {
-    padding: 12px;
+    padding: 12px 24px;
 }
 
 .login--validity {
-    padding: 0;
-	display: flex;
+	padding: 12px 0 12px 24px;
+    display: flex;
+	width: 500px;
+	border-right: 2px solid $hr_color;
+    margin-bottom: 8px;
 }
 
 .validity-from--icon{
-	padding-left: 166px;
+    padding-left: 154px;
 }
 
 .validity-to--icon {
-    padding-left: 186px;
+    padding-left: 194px;
 }
 
 .placeholder-text{
 	padding: 0;
+	width: 100%;
 }
